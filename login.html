@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login</title>
+<style>
+body{
+    margin: 0;
+    
+    background-image: linear-gradient(rgba(104, 175, 255, 0.426),rgb(239, 210, 240),rgb(252, 207, 124));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.d1
+{   margin: 60px;
+    background-image: url(i6.webp);
+    background-attachment: fixed;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d2
+{
+    margin: 20px;
+    background-attachment: fixed;
+}
+.d3
+{
+   backdrop-filter: blur(2px);
+   margin: 60px;
+   margin-left: 380px;
+   margin-right: 380px;
+   border: 2px solid white;
+   border-radius: 7%;
+   background-attachment: fixed;
+   
+
+    
+}
+.d4
+{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.312);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 7%;
+    background-attachment: fixed;
+
+
+    
+}
+a{
+    color: aliceblue;
+   
+}
+a:hover{
+    color: chartreuse;
+}
+h2{
+    text-align: center;
+}
+
+#e,#p
+{
+    margin-left: 10px;
+}
+#c,#g
+{
+    margin-left: 50px;
+}
+#f
+{
+    font-size: x-small;
+}
+#lg
+{
+    justify-content: center;
+    margin-left: 50px;
+    width: 70%;
+    border:1px solid white;
+    border-radius:4px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    border-color:white;
+}
+#f1
+{
+    margin-left: 50px;
+    font-size: x-small;
+}
+input[type=email] {
+  width: 70%;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  fill: none;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+input[type=password] {
+  width: 70%;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  fill: none;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+::placeholder
+{
+    color: rgb(255, 255, 255);
+}
+#g,#b
+{
+    font-size: x-small;
+}
+#g
+{
+    margin-left: 80px;
+}
+#user
+{
+    margin-left: 20px;
+}
+#ock
+{
+    margin-left: 20px;
+}
+</style>
+</head>
+<body>
+    <div class="d1">
+        
+        <div class="d2">
+            <br>
+            <div class="d3">
+                <div class="d4"><br>
+                    <h2>Login</h2>
+                <br><br>
+                <form name="f1">
+                    <i class="fa fa-user" id="user"></i><input type="email" id="e" class="i1" placeholder="Email" required> <br><br>
+                    <i class="fa fa-lock" id="ock"></i><input type="password" id="p" class="i2" placeholder="Password" required><br><br>
+                    <input type="checkbox" id="c"><label for="c" id="f">Remember me </label>
+                    <a href="#"><label for="fp" id="f1">Forgot Password?</label></a><br><br>
+                    <input type="submit" value="Login" id="lg"><br><br>
+                    <label for="b" id =g>Don't have an account?</label>
+                    <a href="#" id="b"><b>Register</b></a><br>
+                    
+                </form><br>
+            </div>
+            
+        </div><br>
+    </div>
+</body>
+</html>

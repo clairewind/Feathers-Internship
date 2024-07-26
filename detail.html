@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table </title>
+    <style>
+        .t1{
+           
+            border: 1px solid rgb(214, 213, 213);
+            border-collapse: collapse;
+            
+        }
+        td{
+            border: 1px solid rgb(215, 209, 209);
+            border-color: rgb(194, 194, 195);
+            border-collapse: collapse;
+            
+        }
+        th,td{
+            padding: 8px;
+        }
+        #r1
+        {
+            background-color: rgb(22, 185, 213);
+            border-color: rgb(28, 181, 209);
+            color: rgb(253, 253, 253);
+        
+        }
+        #r2,#r3
+        {
+            border-style: none;
+           
+        }
+
+        tr:nth-child(3)
+        {
+            background-color: rgba(24, 23, 23, 0.125);
+        }
+        
+        #b2:nth-child(1)
+        {
+            border-color: rgb(234, 255, 148);
+            background-color: rgb(255, 255, 255);
+            border-width: 0.3;
+            padding: 8px;
+        }
+        
+        #b1:nth-child(1){
+            border-color: rgb(137, 237, 237);
+            background-color: rgb(255, 255, 255);
+            border-width: 0.3;
+            padding: 8px;
+            }
+        .i1
+        {
+            width: 45px;
+            height: 50px;
+            border-radius: 50%;
+           
+        }
+        .i2
+        {
+            width: 45px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .i3{
+            width: 45px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    </style>
+    </head>
+    <body>
+        <table class="t1" align="center">
+            <tr id="r1">
+                <th>Sl</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th colspan="2">Action</th>
+
+            </tr>
+            <tr>
+                <td>01</td>
+                <td> <img src="i1.png" alt="Person 1" class="i1" ></td>
+                <td>Alan</td>
+                <td>+91 9876543210</td>
+                <td>Nagercoil</td>
+                <td>
+                    <table><tr>
+                        <td id="r2"><button id ="b1">Edit</button></td>
+                        <td id="r3"><button id ="b2">Remove</button></td>
+                    </tr></table>
+            </td>
+
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td> <img src="i2.png" alt="Person 2" class="i2"  ></td>
+                <td>Ben</td>
+                <td>+91 9876543211</td>
+                <td>Chennai</td>
+                <td>
+                    <table><tr>
+                        <td id="r2"><button id ="b1">Edit</button></td>
+                        <td id="r3"><button id ="b2">Remove</button></td>
+                    </tr></table>
+            </td>
+
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td> <img src="i3.jpg" alt="Person 2" class="i3"  ></td>
+                <td>Cinder</td>
+                <td>+91 9876543212</td>
+                <td>Bangalore</td>
+                <td>
+                    <table><tr>
+                        <td id="r2"><button id ="b1">Edit</button></td>
+                        <td id="r3"><button id ="b2">Remove</button></td>
+                    </tr></table>
+            </td>
+
+            </tr>
+        </table>
+    </body>
+    </html>

@@ -1,0 +1,9 @@
+multicolor
+{
+    color: transparent;
+    background-image: linear-gradient( to right,black,rgb(25, 214, 25),rgb(14, 161, 129));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    
+}

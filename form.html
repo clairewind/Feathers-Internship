@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        body{
+           font-family:sans-serif;
+           
+        }
+       h1
+       {
+        text-align: center;
+       }
+       #d1
+       {
+        background-color: rgb(91, 108, 137);
+        max-width: fit-content;  
+        justify-content: center;
+        margin-left: 25%;
+
+       }
+       .d2
+       {
+        
+        background-color: rgba(168, 172, 175, 0.304);
+       }
+       #frm
+       {
+       
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+       }
+       #f2
+       {
+        margin-left:110px;
+       }
+       #ln,#fn
+       {
+        width: 40%;
+       }
+       #f1,#f2{
+        margin-right: 100px;
+       }
+       #ln{
+        margin-left:70px;
+       }
+
+       #email
+       {
+        margin-right: 100px;
+       }
+       .ema{
+        width: 95%;
+       }
+       .d3
+       {
+        color: rgb(7, 171, 146);
+        
+        margin: 20px;
+       }
+       #pwd,#pwd2
+       {
+        width: 40%;
+       }
+
+       #pw2
+       {
+        margin-left: 210px;
+       }
+       #pwd2
+       {
+        margin-left: 70px;
+       }
+       #ho
+       {
+        margin-left: 234px;
+       }
+       #i1{
+        margin-left: 179px;
+       }
+       #inc
+       {
+        margin-left: 160px;
+       }
+       .ra{
+        margin-left: 193px;
+       }
+       #ag2
+       {
+        margin-left: 130px;
+       }
+       #sub
+       {
+        color: aliceblue;
+        background-color: rgb(7, 171, 146);
+        margin-left: 390px;
+        padding: 8px 18px;
+        border-radius: 5px;
+        border-color: rgb(7, 171, 146);
+        
+       }
+       
+       .d4
+       {
+        font-size:12px
+       }
+       .age
+       {
+        margin-left: 40px;
+        width: 39%;
+       }
+       
+    </style>
+</head>
+<body>
+<div id="d1">
+   <br>
+    <form name="f1" id="frm">
+        <div class="d2">
+            <h1>Create Account</h1>
+            <hr>
+        </div>
+        <div class="d3"><b>
+        <label for="fn" id="f1">First name*</label>
+        <label for="ln" id="f2">Last name*</label><br>
+        <input type="text" id="fn" name="fn" placeholder="Enter your First Name" required>
+        <input type="text" id="ln" name="ln" placeholder="Enter your Last Name" required><br><br>
+        <label for="em" id="email">Email*</label><br>
+        <input type="email" class="ema" id="em" name="email" placeholder="Enter your email" required><br>
+        <br> <label for="pwd" id="pw">Password*</label>
+        <label for="pwd2" id="pw2">Confirm Password*</label><br>
+        <input type="password" id="pwd" name="pwd" placeholder="Enter your Password" required>
+        <input type="password" id="pwd2" name="pwd" placeholder="Enter your Password again" required><br>
+        <br>
+        <label for="g" id="g1">Gender:</label>
+        <label for="h" id="ho">Hobbies</label><br><div class="d4">
+        <input type="radio">Male 
+        <input type="radio">Female 
+        <input type="checkbox" id="i1">Music
+        <input type="checkbox">Sports
+        <input type="checkbox">Travel
+        <input type="checkbox">Movies</div>
+<br><br>
+        <label for="si" id="si1">Source of Income</label>
+        <label for="in" id="inc">Income</label><br>
+        <select id="sel" title="Employment">
+            <option>Employed</option>
+            <option>Unemployed</option>
+        </select>
+        <input type="range" id="in" class="ra" min="1000" max="20000" ><br><br>
+        <label for="up" id="pi">Upload Profile Picture</label>
+        <label for="ag" id="ag2">Age</label>
+        <br>
+        <input type="file" id="up">
+        <input type="text" id="ag" class="age"><br><br>
+        <label for="bi" >Bio</label>
+        <br>
+        <textarea id="bi" rows="6" cols="65"></textarea>
+    </b>
+    </div>
+    <div class="d2">
+        
+        <hr>
+        <br><br>
+        <input type="submit" value="Create" id="sub">
+        <br><br>
+    </div>
+   
+    </form><br>
+</div>
+
+</body>
+</html>
